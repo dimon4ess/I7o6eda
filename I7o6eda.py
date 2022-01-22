@@ -79,7 +79,7 @@ class cloop(object):
             _phone[1:4] + ") " + _phone[4:7] + "-" + _phone[7:9] + "-" + _phone[9:11]
         )  # '915) 350-99-08'
         _email = _name + f"{iteration}" + "@gmail.com"
-        email = _name + f"{iteration}" + "@gmail.com"
+        _email = _name + f"{iteration}" + "@gmail.com"
         request_timeout = 0.00001
         kolvos = int(kolvos)
         kk = 0
