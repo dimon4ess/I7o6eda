@@ -8,7 +8,8 @@ print ("""
 	██║░░░██╔╝░██║░░██║██╔══██╗██╔══╝░░██║░░██║██╔══██║
 	██║░░██╔╝░░╚█████╔╝╚█████╔╝███████╗██████╔╝██║░░██║
 	╚═╝░░╚═╝░░░░╚════╝░░╚════╝░╚══════╝╚═════╝░╚═╝░░╚═╝ by dimon4ess """)
-phone = input("\033[32m Введите номер жертвы интернета +")
+phone = input("\033[32m Введите номер +")
+    _name = ""
 def qw(_phone): 
     if _phone[0] == '+': 
         _phone = _phone[1:] 
@@ -17,10 +18,12 @@ def qw(_phone):
     if _phone[0] == '9': 
         _phone = '7'+_phone 
 _phone = phone 
-    _name = "" 
+    _name = " " 
     for x in range(12): 
         _name = _name + random.choice(list('123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM')) 
+	
         password = _name + random.choice(list('123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM')) 
+	
         username = _name + random.choice(list('123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM')) 
  
     _phone9 = _phone[1:] 
