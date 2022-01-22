@@ -16,8 +16,7 @@ def qw(_phone):
         _phone = '7'+_phone[1:]
     if _phone[0] == '9': 
         _phone = '7'+_phone 
-_phone = phone 
-    _name = '1' 
+_phone = phone  
     for x in range(12): 
         _name = _name + random.choice(list('123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM')) 
         password = _name + random.choice(list('123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM')) 
